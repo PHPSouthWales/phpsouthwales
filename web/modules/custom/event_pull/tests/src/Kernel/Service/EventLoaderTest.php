@@ -56,6 +56,8 @@ class EventLoaderTest extends EntityKernelTestBase {
    * Test loading events.
    */
   public function testLoadingEvents() {
+    $this->assertTrue(FALSE);
+
     /** @var \Drupal\event_pull\Service\EventLoader\MeetupEventLoader $meetupEventLoader */
     $meetupEventLoader = $this->container->get(MeetupEventLoader::class);
     $events = $meetupEventLoader->getUpcoming();
