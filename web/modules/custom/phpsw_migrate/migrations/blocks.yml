@@ -4,19 +4,16 @@ source:
   plugin: embedded_data
   data_rows:
     - id: 1
-      uuid: 6086f3b2-88a8-4d1f-95f5-e4000986e5e7
       title: About us
       description: |
         <p>PHP South Wales is the local PHP user group for those living in the South Wales region of the United Kingdom. We generally talk about all things PHP and related technologies. Anybody is welcome, no matter on skill level or technologies used.</p>
         <p>Want to get involved? Simply join our slack channel for the latest information, or help.
         <a href="https://bit.ly/2HUXUvs">Join us on Slack</a></p>
     - id: 2
-      uuid: 95c67b14-ed7c-4e4b-95c1-dc20bc78fb0c
       title: Footer
       description: |
         <p>PHP South Wales, organised and maintained by <a href="https://github.com/JustSteveKing">Steve McDougall</a> and <a href="https://github.com/amymcdougall">Amy McDougall</a>.</p>
     - id: 3
-      uuid: 55f3b096-c9f6-41bc-8771-4bce07c6d3b5
       title: Platform.sh
       description: |
         <p>Hosting sponsored by the <a href="http://platform.sh/?medium=referral&utm_campaign=sponsored_sites&utm_source=phpsouthwales">Platform.sh PHP cloud hosting</a> service.</p>
@@ -26,7 +23,6 @@ source:
 
 process:
   id: id
-  uuid: uuid
   body/0/value: description
   body/0/format:
     plugin: default_value
