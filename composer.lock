@@ -3003,28 +3003,27 @@
         },
         {
             "name": "drupal/hook_event_dispatcher",
-            "version": "1.25.0",
+            "version": "1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/hook_event_dispatcher.git",
-                "reference": "8.x-1.25"
+                "reference": "8.x-1.26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/hook_event_dispatcher-8.x-1.25.zip",
-                "reference": "8.x-1.25",
-                "shasum": "c5373f1c6537f542328281d5f37e2f6ff51e707a"
+                "url": "https://ftp.drupal.org/files/projects/hook_event_dispatcher-8.x-1.26.zip",
+                "reference": "8.x-1.26",
+                "shasum": "c24af549579277b53d0ef63e9004cd50ba3feec5"
             },
             "require": {
                 "drupal/core": "~8.0"
             },
             "require-dev": {
-                "drupal/coder": "^8.3.1",
+                "drupal/coder": "8.3.1",
                 "drupal/core": "^8.7",
                 "drupal/webform": "*",
-                "jakub-onderka/php-console-highlighter": "^0.4.0",
                 "jakub-onderka/php-parallel-lint": "^1.0",
-                "phpmd/phpmd": "^2.6",
+                "phpmd/phpmd": "^2.7",
                 "phpunit/phpunit": "^5.7 || ^6.5",
                 "squizlabs/php_codesniffer": "^3.4"
             },
@@ -3038,8 +3037,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.25",
-                    "datestamp": "1560602285",
+                    "version": "8.x-1.26",
+                    "datestamp": "1577219287",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3198,7 +3197,7 @@
                 },
                 "drupal": {
                     "version": "8.x-4.4",
-                    "datestamp": "1570477985",
+                    "datestamp": "1574693285",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10524,6 +10523,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "require-dev dependencies from drupal/core",
+            "abandoned": "drupal/core-dev",
             "time": "2019-06-05T19:31:46+00:00"
         }
     ],
