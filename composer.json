@@ -36,7 +36,7 @@
         "drupal/migrate_tools": "^4.1",
         "drupal/recreate_block_content": "^2.0",
         "drupal/tailwindcss": "^2.2",
-        "drush/drush": "^9.0.0",
+        "drush/drush": "^10.2.2",
         "opdavies/php-helpers": "^0.2.0",
         "platformsh/config-reader": "^2.2",
         "vlucas/phpdotenv": "^2.4",
