@@ -2580,16 +2580,16 @@
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "8.8.2",
+            "version": "8.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
-                "reference": "dca4b123a638d78bf77719632993e920de6cc426"
+                "reference": "984129ae3152d570c9448e52869f04a22fc75269"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-composer-scaffold/zipball/dca4b123a638d78bf77719632993e920de6cc426",
-                "reference": "dca4b123a638d78bf77719632993e920de6cc426",
+                "url": "https://api.github.com/repos/drupal/core-composer-scaffold/zipball/984129ae3152d570c9448e52869f04a22fc75269",
+                "reference": "984129ae3152d570c9448e52869f04a22fc75269",
                 "shasum": ""
             },
             "require": {
@@ -2623,7 +2623,7 @@
             "keywords": [
                 "drupal"
             ],
-            "time": "2019-10-09T02:55:24+00:00"
+            "time": "2020-02-21T09:36:23+00:00"
         },
         {
             "name": "drupal/core-recommended",
@@ -7001,12 +7001,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/minkphp/Mink.git",
-                "reference": "a534fe7dac9525e8e10ca68e737c3d7e5058ec83"
+                "reference": "b2e031b747be637236c55f3158e4da280427bfa3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minkphp/Mink/zipball/a534fe7dac9525e8e10ca68e737c3d7e5058ec83",
-                "reference": "a534fe7dac9525e8e10ca68e737c3d7e5058ec83",
+                "url": "https://api.github.com/repos/minkphp/Mink/zipball/b2e031b747be637236c55f3158e4da280427bfa3",
+                "reference": "b2e031b747be637236c55f3158e4da280427bfa3",
                 "shasum": ""
             },
             "require": {
@@ -7052,7 +7052,7 @@
                 "testing",
                 "web"
             ],
-            "time": "2019-07-15T12:45:29+00:00"
+            "time": "2020-03-06T06:18:25+00:00"
         },
         {
             "name": "behat/mink-browserkit-driver",
