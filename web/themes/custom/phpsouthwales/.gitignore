@@ -6,6 +6,4 @@
 /build/
 /dist/
 
-# Ignore lock files.
-/package-lock.json
-/yarn.lock
+!/package-lock.json
