@@ -39,6 +39,10 @@ if (getenv('APP_ENV') == 'ci') {
 // This is defined inside the read-only "config" directory, deployed via Git.
 $settings['config_sync_directory'] = '../config';
 
+// event_pull settings.
+$config['event_pull.config']['meetup_event_statuses'] = getenv('MEETUP_EVENT_STATUSES');
+$config['event_pull.config']['meetup_group_url_name'] = getenv('MEETUP_GROUP_URL_NAME');
+
 // Automatic Platform.sh settings.
 if (file_exists($app_root . '/' . $site_path . '/settings.platformsh.php')) {
   include $app_root . '/' . $site_path . '/settings.platformsh.php';

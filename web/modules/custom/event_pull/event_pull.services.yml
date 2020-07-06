@@ -1,6 +1,11 @@
 services:
+  Drupal\Core\Config\ConfigFactoryInterface:
+    alias: config.factory
+    private: true
+
   Drupal\Core\Entity\EntityTypeManager:
     alias: entity_type.manager
+    private: true
 
   Drupal\event_pull\Controller\EventController: ~
 
@@ -24,3 +29,4 @@ services:
 
   GuzzleHttp\ClientInterface:
     alias: http_client
+    private: true
