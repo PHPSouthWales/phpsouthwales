@@ -13,6 +13,7 @@ use_dns_when_possible: true
 working_dir:
   web: /var/www/html
 webimage_extra_packages: [make]
+omit_containers: [dba]
 
 hooks:
   post-start:
