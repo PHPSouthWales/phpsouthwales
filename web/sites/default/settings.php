@@ -37,7 +37,7 @@ if (getenv('APP_ENV') == 'ci') {
 // Set up a config sync directory.
 //
 // This is defined inside the read-only "config" directory, deployed via Git.
-$settings['config_sync_directory'] = '../config/default';
+$settings['config_sync_directory'] = '../config';
 
 // Automatic Platform.sh settings.
 if (file_exists($app_root . '/' . $site_path . '/settings.platformsh.php')) {
