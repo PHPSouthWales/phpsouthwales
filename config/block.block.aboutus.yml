@@ -12,7 +12,7 @@ dependencies:
 id: aboutus
 theme: phpsouthwales
 region: content
-weight: -5
+weight: -6
 provider: null
 plugin: 'block_content:aa797092-27f4-4a3c-ab26-7b6d577cccd6'
 settings:
