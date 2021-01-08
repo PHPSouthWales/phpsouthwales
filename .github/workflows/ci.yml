@@ -33,7 +33,7 @@ jobs:
 
       - name: Install Drupal
         run: >
-          vendor/bin/drush --root=$(pwd)/web
+          bin/drush --root=$(pwd)/web
           site:install -y
           config_installer
           --db-url=sqlite://sites/defalt/files/.ht.sqlite

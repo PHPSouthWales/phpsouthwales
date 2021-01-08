@@ -49,7 +49,7 @@ refresh:
 	drush cache-rebuild
 
 test-phpcs:
-	php vendor/bin/phpcs -v \
+	php bin/phpcs -v \
 		--standard=Drupal \
 		--extensions=php,module,inc,install,test,profile,theme,pcss,info,txt,md \
 		--ignore=node_modules,*/tests/* \
@@ -57,10 +57,10 @@ test-phpcs:
 		web/themes/custom
 
 test-phpstan:
-	php vendor/bin/phpstan analyze
+	php bin/phpstan analyze
 
 test-phpunit:
-	php vendor/bin/phpunit web/modules/custom --verbose --testdox
+	php bin/phpunit web/modules/custom --verbose --testdox
 
 test: test-phpcs test-phpstan test-phpunit
 

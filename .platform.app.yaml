@@ -59,7 +59,7 @@ hooks:
       rm -fr node_modules
     deploy: |
       set -e
-      export PATH=$PATH:/app/vendor/bin
+      export PATH=$PATH:/app/bin
 
       cd web
       drush cache-rebuild -y
@@ -133,7 +133,7 @@ web:
 crons:
     drupal:
         spec: '*/20 * * * *'
-        cmd: 'cd web ; ../vendor/bin/drush core-cron'
+        cmd: 'bin/drush core-cron'
     drush-event-cron:
         spec: '*/7 * * * *'
-        cmd: 'cd web; ../vendor/bin/drush advancedqueue:queue:process event_pull'
+        cmd: 'bin/drush advancedqueue:queue:process event_pull'
