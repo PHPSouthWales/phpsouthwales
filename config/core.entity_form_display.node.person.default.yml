@@ -32,7 +32,7 @@ content:
     weight: 121
     settings: {  }
     third_party_settings: {  }
-    type: options_select
+    type: options_buttons
     region: content
   path:
     type: path
@@ -78,5 +78,10 @@ content:
       placeholder: ''
       match_limit: 10
     region: content
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    region: content
+    settings: {  }
     third_party_settings: {  }
 hidden: {  }
