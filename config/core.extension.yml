@@ -29,6 +29,7 @@ module:
   history: 0
   hook_event_dispatcher: 0
   image: 0
+  jsonapi: 0
   link: 0
   markdown: 0
   menu_ui: 0
@@ -47,6 +48,7 @@ module:
   recreate_block_content: 0
   redirect: 0
   search: 0
+  serialization: 0
   shortcut: 0
   system: 0
   taxonomy: 0
