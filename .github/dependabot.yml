@@ -1,0 +1,54 @@
+version: 2
+updates:
+- package-ecosystem: composer
+  directory: "/"
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 10
+  reviewers:
+  - opdavies
+  versioning-strategy: lockfile-only
+  ignore:
+  - dependency-name: drupal/coder
+    versions:
+    - 8.3.12
+  - dependency-name: vlucas/phpdotenv
+    versions:
+    - 4.1.8
+    - 4.2.0
+  - dependency-name: drupal/core-composer-scaffold
+    versions:
+    - 8.9.12
+    - 8.9.13
+  - dependency-name: drupal/core-recommended
+    versions:
+    - 8.9.13
+  - dependency-name: drupal/console
+    versions:
+    - 1.9.7
+  - dependency-name: webflo/drupal-finder
+    versions:
+    - 1.2.2
+  - dependency-name: squizlabs/php_codesniffer
+    versions:
+    - 3.5.8
+  - dependency-name: phpstan/phpstan
+    versions:
+    - 0.11.20
+  - dependency-name: drupal/admin_toolbar
+    versions:
+    - 2.4.0
+  - dependency-name: zaporylie/composer-drupal-optimizations
+    versions:
+    - 1.2.0
+  - dependency-name: cweagans/composer-patches
+    versions:
+    - 1.7.0
+- package-ecosystem: npm
+  directory: "/web/themes/custom/phpsouthwales"
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 10
+  reviewers:
+  - opdavies
+  versioning-strategy: lockfile-only
